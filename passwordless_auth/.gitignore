@@ -1,0 +1,31 @@
+.venv
+../venv/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore static files collected by Django
+/staticfiles/
+
+# Ignore media files uploaded by users
+/media/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.pyc
+
+# Ignore local settings file
+/local_settings.py
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore logs
+/logs/
+
+# Ignore package manager directories
+/node_modules/
+/yarn.lock
+/package-lock.json
